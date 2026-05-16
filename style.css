@@ -19,6 +19,7 @@ body{
     background-image: url("AAAABX8ClwD9WIXXC_lNNs35ekJJ0xp0moKKZlPA6zOQwgsQiKIXl0z9HEYDvfqBEASFP-r4x06K5p4fkdZy4D4BTwz3yKkQbMCU7Bb3.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    animation: pageFade 2s ease;
     
 }
 #pagination{
@@ -38,15 +39,27 @@ button{
     color: aliceblue;
     background-color: rgb(75, 15, 15);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
+    border-radius: 10px;  
+
 }
 .body-content{
-    color: rgb(177, 236, 236);
-    font-size: 100px;
+    color: yellowgreen;
+    font-size: 90px;
      font-family: Papyrus, fantasy;
     font-weight: bold;
     display: flex;
     justify-content: center;
     margin-right: 900px;
+    position: relative;
+    bottom: 100px;
     
 }
+@keyframes pageFade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
