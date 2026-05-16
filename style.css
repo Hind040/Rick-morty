@@ -10,7 +10,7 @@
 .logo{
     position: relative;
     bottom: 70px;
-    height: 330px;
+    height: 300px;
 
     
 
@@ -25,7 +25,9 @@ body{
 #pagination{
     display: flex;
     justify-content: center;
-    background-color: yellowgreen
+    background-color: yellowgreen;
+    font-family: Papyrus, fantasy;
+    color: rgba(233, 42, 42, 0.815);
     
 
 }
@@ -35,23 +37,31 @@ button{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 .card{
-    margin: 5px;
+    margin: 15px;
     color: aliceblue;
     background-color: rgb(75, 15, 15);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;  
+    overflow: hidden;
 
 }
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0 10px 25px rgb(39, 20, 20);
+}
+
 .body-content{
     color: yellowgreen;
     font-size: 90px;
-     font-family: Papyrus, fantasy;
+    font-family: Papyrus, fantasy;
     font-weight: bold;
     display: flex;
     justify-content: center;
     margin-right: 900px;
     position: relative;
-    bottom: 100px;
+    top: 40px;
+    width: 50vw;
     
 }
 @keyframes pageFade{
@@ -62,4 +72,11 @@ button{
         opacity: 1;
     }
 }
-
+nav{
+    position: sticky;
+    top: 0;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    height: 160px;
+}
