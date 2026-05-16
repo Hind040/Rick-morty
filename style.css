@@ -1,0 +1,52 @@
+#cards-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    padding: 10px;
+    background-color: rgb(66, 35, 6);
+}
+.logo{
+    position: relative;
+    bottom: 70px;
+    height: 330px;
+
+    
+
+}
+body{
+    background-image: url("AAAABX8ClwD9WIXXC_lNNs35ekJJ0xp0moKKZlPA6zOQwgsQiKIXl0z9HEYDvfqBEASFP-r4x06K5p4fkdZy4D4BTwz3yKkQbMCU7Bb3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+#pagination{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen
+    
+
+}
+button{
+    background-color: transparent;
+    border: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.card{
+    margin: 5px;
+    color: aliceblue;
+    background-color: rgb(75, 15, 15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+.body-content{
+    color: rgb(177, 236, 236);
+    font-size: 100px;
+     font-family: Papyrus, fantasy;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-right: 900px;
+    
+}

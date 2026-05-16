@@ -20,15 +20,18 @@ ccontainer.innerHTML=""
 
 characters.forEach(char=>{
     const card=`
+    <div class="card">
         <div class="card-header">
             <img src="${char.image}" alt="${char.name}">
+        </div>
         <div class="card-body">
-            <p>${char.name}</p>
+            <h3>${char.name}</h3>
             <p>${char.status} - ${char.type}</p>
             <p>${char.species}</p>
             <p>${char.origin.name}</p>
         </div>
-        </div>
+    </div>
+        
 
     `
     ccontainer.innerHTML+=card
